@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,6 +23,37 @@ Here are some ideas to get you started:
     <title>Dark Necessities</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+    <header>
+        <h1>Dark Necessities</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="destacados">
+            <h2>Productos Destacados</h2>
+            <div class="producto">
+                <img src="producto1.jpg" alt="Producto 1">
+                <p>Descripción del Producto 1</p>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="producto2.jpg" alt="Producto 2">
+                <p>Descripción del Producto 2</p>
+                <button>Comprar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dark Necessities. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
 
 
 
